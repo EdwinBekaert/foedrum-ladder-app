@@ -16,6 +16,6 @@ jobs:
         with:
           persist-credentials: false
       - run: node --version
-      - run: npm ci
+      - run: npm install --no-package-lock
       - run: npm test
       - run: npm start
