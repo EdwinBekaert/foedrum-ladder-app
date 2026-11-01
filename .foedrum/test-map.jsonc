@@ -1,0 +1,13 @@
+// Where the app's code, tests and reports are (Foedrum's test map).
+{
+  "derivedFrom": { "globs": ["package.json", "package-lock.json"], "paths": ["package-lock.json", "package.json"] },
+  "modules": [
+    {
+      "name": "app",
+      "code": ["app.mjs", "welcome.mjs"],
+      "tests": { "paths": ["*.test.mjs"] },
+      "testReport": { "format": "tap", "path": "test-report.tap" },
+      "coverage": { "format": "lcov", "path": "coverage.lcov" }
+    }
+  ]
+}
