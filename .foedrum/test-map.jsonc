@@ -1,6 +1,6 @@
 // Where the app's code, tests and reports are (Foedrum's test map).
 {
-  "derivedFrom": { "globs": ["package.json", "package-lock.json"], "paths": ["package-lock.json", "package.json"] },
+  "derivedFrom": { "globs": ["package.json"], "paths": ["package.json"] },
   "modules": [
     {
       "name": "app",
