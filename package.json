@@ -10,6 +10,6 @@
     "test": "node --test --experimental-test-coverage --test-reporter=tap --test-reporter-destination=test-report.tap --test-reporter=lcov --test-reporter-destination=coverage.lcov"
   },
   "dependencies": {
-    "greet": "github:EdwinBekaert/foedrum-ladder-lib#v1.1.0"
+    "greet": "github:EdwinBekaert/foedrum-ladder-lib#v1.2.0"
   }
 }
